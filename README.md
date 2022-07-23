@@ -12,7 +12,7 @@ node >= 17
 mkdir robot
 cd robot
 npm i cryptotradingbot
-npx cryptotradingbot
+APIKEY=your_binance_api_key APISECRET=your_binance_api_secret npx cryptotradingbot
 ```
 
 ### From github
@@ -20,5 +20,8 @@ npx cryptotradingbot
 git clone https://github.com/opexflow/cryptotradingbot
 cd cryptotradingbot
 npm i
+
+// Change APIKEY and APISECRET in app.js. Or use APIKEY, APISECRET in env.
+
 npm start
 ```
